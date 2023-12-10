@@ -31,10 +31,10 @@ const ProductCard = ({ product }: Iprops) => {
         />
       </div>
       <div className="flex justify-between gap-2">
-        <Button className=" bg-indigo-500 p-2 text-white rounded-md flex-1">
+        <Button width="w-full" className=" bg-indigo-500  ">
           EDIT
         </Button>
-        <Button className=" bg-red-500 p-2 text-white rounded-md flex-1">
+        <Button width="w-full" className=" bg-red-500  ">
           DELETE
         </Button>
       </div>
